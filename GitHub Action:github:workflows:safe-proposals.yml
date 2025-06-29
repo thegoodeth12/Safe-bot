@@ -47,9 +47,9 @@ jobs:
           })();
           EOF
 
-      - name: Notify Discord
+      - name:https://discord.com/channels/1376197962690199612/1384032417664208956  
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{https://discord.com/api/webhooks/1384032499830882454/ijOIBfKKjbdgpULAPicki2Zlch0-ADDiZTYr1tX2LhLCo3tTmRP-bbl2L-CNKUrwZgaU}}
         run: |
           curl -H "Content-Type: application/json" \
                -d "{\"content\": \"New Safe proposal created from PR/label. <Approval link here>\"}" \
